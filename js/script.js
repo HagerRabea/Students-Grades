@@ -49,7 +49,7 @@ document.getElementById('gradeForm').addEventListener('submit', async function(e
       html += `</ul><p>Bravo! May success always be with you.</p>`;
       gradeDisplay.innerHTML = html;
     } else {
-      gradeDisplay.innerHTML = '<p>Student ID not found</p>';
+      gradeDisplay.innerHTML = '<p>Contact with The Doctor</p>';
     }
 
   } catch (err) {
