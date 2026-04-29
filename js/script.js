@@ -10,7 +10,7 @@ document.getElementById('gradeForm').addEventListener('submit', async function(e
     return;
   }
 
-  const API_URL = 'https://api.sheetbest.com/sheets/';
+  const API_URL = 'https://api.sheetbest.com/sheets/122925e1-0a1e-416a-a663-5b52a70419e2';
 
   try {
     const res = await fetch(API_URL);
